@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link as LinkR } from "react-router-dom";
-import styled, { useTheme } from "styled-components";
+import styled from "styled-components";
 import { Bio } from "../data/constants";
 import { MenuRounded } from "@mui/icons-material";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -132,7 +132,7 @@ const IconLink = styled.a`
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const theme = useTheme();
+  // const theme = useTheme();
   return (
     <Nav>
       <NavbarContainer>

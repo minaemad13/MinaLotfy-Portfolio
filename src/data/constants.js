@@ -1,5 +1,5 @@
 import reactjs from "../images/reactjs.svg";
-import redux from "../images/redux.svg";
+// import redux from "../images/redux.svg";
 import tailwind from "../images/tailwind.svg";
 import matrialui from "../images/matrialui.png";
 import JavaScript from "../images/JavaScript.png";
